@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>大作业Demo</title>
+    <meta  name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body >
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">大作业Demo</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav" >
+                <li><a href="/">主页</a></li>
+                <li><a href="/calendar.html">日历</a></li>
+                <li><a href="/fanyi.html">翻译</a></li>
+                <li class="active"><a href="/resume.html">简历</a></li>
+                <li><a href="/lol.html">lol</a></li>
+                <li><a href="/cashbox.html">资金管理</a></li>
+                <li><a href="/weather.html">天气</a></li>
+                <li><a href="/workers.html">职工管理</a></li>
+                <li><a href="/books.html">借书管理</a></li>
+                <li><a href="/tongcheng.html">同城旅行</a></li>
+                <li><a href="/students.html">学生管理</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div style="height:50px"></div>
+
+<div id="app2" class="container">
+    <div class="row">
+    <!-- 左侧 -->
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">Personal Info</div>
+                <div class="panel-body">
+                    <img src="https://w.wallhaven.cc/full/x6/wallhaven-x61zro.png" class="img-responsive img-rounded img-thumbnail" alt="Me">
+                    <h3 class="text-center text-primary">陈文聪</h3>
+                    <address>
+                        <strong style="float:right;color:#001aff;" ></strong><br>
+                        <span class="glyphicon glyphicon-home" title="Address">&nbsp;&nbsp;<kbd>河南宿舍</kbd></span><br>
+                        <span class="glyphicon glyphicon-file" title="PostalCoded">&nbsp;&nbsp;20211113492</span><br>
+                        <span class="glyphicon glyphicon-phone" title="Mobile">&nbsp;&nbsp;17777923559</span><br>
+                        <span class="glyphicon glyphicon-envelope" title="Email">&nbsp;&nbsp;<code>Wunseol@163.com</code></span>
+                    </address>
+                </div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel panel-heading">Personal Skill</div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-muted">Python</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" style="width: 20%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-danger">C</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-danger active" style="width: 15%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-warning">Data Science</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-warning active" style="width: 10%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <span class="text-success">Html5</span>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-success active" style="width: 5%"></div>
+                            </div>
+                        </div>
+                    </div>
+ 
+                </div>
+            </div>
+        </div>
+        <!-- 右侧 -->
+        <div class="col-sm-9">
+            <div class="jumbotron">
+                <p class="text-left small">
+                能吃苦的人有苦吃，快乐才是最重要的
+                <br>
+                </p>
+            </div>
+
+            <div class="panel-group" id="accoradion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseOne" data-toggle="collapse" data-parent="#accoradion">工作经验</a>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse ">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item ">
+                                        <div class="row">
+                                            <div class="col-sm-3"><p>2021.09-2025.06</p></div>
+                                            <div class="col-sm-3"><p>上海第二工业大学</p></div>
+                                            <div class="col-sm-3"><p>智能科学与技术</p></div>
+                                            <div class="col-sm-3"><p>本科</p></div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseTwo" data-toggle="collapse" data-parent="#accoradion">获奖情况</a>
+                        </div>
+
+                        <div id="collapseTwo" class="panel-collapse">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item ">
+                                        <div class="row">
+                                            <div class="col-sm-2">2022.2</div>
+                                            <div class="col-sm-7">北京冬奥会国际奥委会第139次全会</div>
+                                            <div class="col-sm-3">“奥林匹克杯”</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseOne" data-toggle="collapse" data-parent="#accoradion">学术论文</a>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse ">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item ">
+                                        <div class="row">
+                                            <div class="col-sm-12">[1]<b> 陈文聪 </b>             仿人机器人发展及应用的调查报告（论文作业)
+                                            </div>  
+                                        </div>
+                                    </li>          
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseOne" data-toggle="collapse" data-parent="#accoradion">实习经历</a>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse ">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item ">
+                                        <div class="row">
+                                            <div class="col-sm-3">2021-</div>  
+                                            <div class="col-sm-5">   在网上卖东西算实习吗---笑   </div>  
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapseThree" data-toggle="collapse" data-parent="#accoradion">项目经验</a>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item ">
+                                        <div class="row">
+                                            <div class="col-sm-3">2021.10-</div>  
+                                            <div class="col-sm-3">参与人</div>  
+                                            <div class="col-sm-6">仿人机器人发展及应用的调查</div>  
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<style>
+
+    body{
+       background-image: url(https://w.wallhaven.cc/full/gp/wallhaven-gp7zj7.jpg);
+       background-size: cover;
+    }
+ 
+ </style>
+ 
+</html>

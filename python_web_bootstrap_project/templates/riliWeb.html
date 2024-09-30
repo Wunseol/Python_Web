@@ -1,0 +1,89 @@
+$def with(yearWeb,monthWeb,dataWeb)
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<meta charset="utf-8"> 
+	<title>大作业Demo</title>
+	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">大作业Demo</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav" >
+                <li><a href="/">主页</a></li>
+                <li class="active"><a href="/calendar.html">日历</a></li>
+                <li><a href="/fanyi.html">翻译</a></li>
+                <li><a href="/resume.html">简历</a></li>
+				<li><a href="/lol.html">lol</a></li>
+				<li><a href="/cashbox.html">资金管理</a></li>
+				<li><a href="/weather.html">天气</a></li>
+				<li><a href="/workers.html">职工管理</a></li>
+				<li><a href="/books.html">借书管理</a></li>
+				<li><a href="/tongcheng.html">同城旅行</a></li>
+				<li><a href="/students.html">学生管理</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div style="height:50px"></div>
+
+<div class="row">
+
+	<div class="col-md-3"></div>
+
+	<div class="col-md-6">
+
+		<div class="row">
+
+			<form action = "" method="post" enctype="multipart/form-data">
+
+				<div class="col-md-4">
+					<h3>年份</h3><input type="text" class="form-control" name ="yearInput" value="$:yearWeb" />
+				</div>
+
+				<div class="col-md-4">
+					<h3>月份</h3><input type="text" class="form-control" name ="monthInput" value="$:monthWeb" />
+				</div>
+
+				<div class="col-md-4">
+
+					<div style="height:50px"></div>
+
+					<button type="submit" class="btn btn-primary"> 查询 </button>
+				</div>
+			</form>
+
+		</div>
+
+
+		<div class="row">
+			
+			<pre >$:dataWeb</pre>
+			
+		</div>
+	</div>
+</div>
+
+</body>
+
+<style>
+
+	body{
+	   background-image: url(https://w.wallhaven.cc/full/gp/wallhaven-gp7zj7.jpg);
+	   background-size: cover;
+	}
+ 
+ </style>
+
+</html>
+
